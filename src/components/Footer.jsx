@@ -98,9 +98,11 @@ export default function Footer({ lang, onReserve }) {
 
         <div className="border-t border-white/10 mt-12 pt-8 text-center">
           <p className="text-xs text-white/40">{tr.copyright}</p>
-          <p className="text-xs text-white/40 mt-3">
+          <p className="text-sm text-white/40 mt-3">
             By Marcin Widomski - 797 992 207
           </p>
+
+          <p className="text-sm text-white/40 mt-2">m.widomski@tlen.pl</p>
         </div>
       </div>
     </footer>
