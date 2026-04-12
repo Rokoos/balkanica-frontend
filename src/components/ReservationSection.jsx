@@ -44,7 +44,8 @@ const Field = ({ icon: Icon, label, required, children }) => (
 );
 
 const BG =
-  "https://images.pexels.com/photos/262918/pexels-photo-262918.jpeg?auto=compress&cs=tinysrgb&w=1200";
+  // "https://images.pexels.com/photos/262918/pexels-photo-262918.jpeg?auto=compress&cs=tinysrgb&w=1200";
+  "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepxEEMhbE_TRTrGKbfcRTK5RdGLmS3ozSWtG5lws3pFV_4SWRGT_czZv2PZ2Q1iLubdrFDF8Zk2Zt3TitqA4MvIXN9K4tCH4_vCpefvZL6vGADX3ocm5IiJWMlx_H25VsumG-huTZ0nxNM6=s680-w680-h510";
 
 export default function ReservationSection({ lang }) {
   const tr = t[lang].reservation;

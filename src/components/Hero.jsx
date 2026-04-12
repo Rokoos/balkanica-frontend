@@ -2,7 +2,8 @@ import { ChevronDown } from "lucide-react";
 import { t } from "../data/content";
 
 const HERO_IMAGE =
-  "https://images.pexels.com/photos/262918/pexels-photo-262918.jpeg?auto=compress&cs=tinysrgb&w=1920";
+  // "https://images.pexels.com/photos/262918/pexels-photo-262918.jpeg?auto=compress&cs=tinysrgb&w=1920";
+  "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepxEEMhbE_TRTrGKbfcRTK5RdGLmS3ozSWtG5lws3pFV_4SWRGT_czZv2PZ2Q1iLubdrFDF8Zk2Zt3TitqA4MvIXN9K4tCH4_vCpefvZL6vGADX3ocm5IiJWMlx_H25VsumG-huTZ0nxNM6=s680-w680-h510";
 
 export default function Hero({ lang, onReserve }) {
   console.log("lang", lang);
